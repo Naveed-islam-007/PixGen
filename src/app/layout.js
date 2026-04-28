@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Navbar></Navbar>
-        {children}
+        <main className="w-3/4 container mx-auto">
+              {children}
+        </main>
         <Footer></Footer>
         </body>
     </html>
